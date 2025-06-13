@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # Expone el puerto (ajustaremos luego para el desafío)
-EXPOSE 3000
+EXPOSE 4200
 
 # Comando para ejecutar la app
 CMD ["npm", "start"]
