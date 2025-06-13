@@ -29,7 +29,7 @@ import Layout from './Layout';
 import './App.css';
 
 function Home() {
-  return <h1>Bienvenidos a la Página de Inicio RH</h1>;
+  return <h1>Bienvenidos a la Página de Inicio RH - Prueba</h1>;
 }
 
 function About() {
