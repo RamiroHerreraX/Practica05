@@ -1,5 +1,5 @@
 # Etapa 1: Construcción de React
-FROM node:24
+FROM node:24 AS builder
 
 WORKDIR /app
 COPY package.json package-lock.json ./
